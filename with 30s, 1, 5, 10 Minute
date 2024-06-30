@@ -75,18 +75,22 @@
     };
 
     const playerContainer = document.querySelector('.plyr__controls');
-    const jump1MinButton = createButton('1 Min Forward', 60);
-    const jump5MinButton = createButton('5 Min Forward', 300);
-    const jump10MinButton = createButton('10 Min Forward', 600);
-    const rewind1MinButton = createButton('1 Min Backward', -60);
-    const rewind5MinButton = createButton('5 Min Backward', -300);
-    const rewind10MinButton = createButton('10 Min Backward', -600);
+    const jump30SecButton = createButton('30s Forward', 30);
+    const jump1MinButton = createButton('1m Forward', 60);
+    const jump3MinButton = createButton('3m Forward', 180);
+    const jump10MinButton = createButton('10m Forward', 600);
+    const rewind30SecButton = createButton('30s Back', -30);
+    const rewind1MinButton = createButton('1m Back', -60);
+    const rewind3MinButton = createButton('3m Back', -180);
+    const rewind10MinButton = createButton('10m Back', -600);
 
+    playerContainer.appendChild(jump30SecButton);
     playerContainer.appendChild(jump1MinButton);
-    playerContainer.appendChild(jump5MinButton);
+    playerContainer.appendChild(jump3MinButton);
     playerContainer.appendChild(jump10MinButton);
+    playerContainer.appendChild(rewind30SecButton);
     playerContainer.appendChild(rewind1MinButton);
-    playerContainer.appendChild(rewind5MinButton);
+    playerContainer.appendChild(rewind3MinButton);
     playerContainer.appendChild(rewind10MinButton);
   });
 </script>
