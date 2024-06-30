@@ -28,7 +28,7 @@
     size="576"
   />
   <source
-    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    src="https://short.ink/kkQl7XHwf"
     type="video/mp4"
     size="720"
   />
@@ -75,14 +75,14 @@
     };
 
     const playerContainer = document.querySelector('.plyr__controls');
-    const jump30SecButton = createButton('30s Forward', 30);
-    const jump1MinButton = createButton('1m Forward', 60);
-    const jump3MinButton = createButton('3m Forward', 180);
-    const jump10MinButton = createButton('10m Forward', 600);
-    const rewind30SecButton = createButton('30s Back', -30);
-    const rewind1MinButton = createButton('1m Back', -60);
-    const rewind3MinButton = createButton('3m Back', -180);
-    const rewind10MinButton = createButton('10m Back', -600);
+    const jump30SecButton = createButton('30s F', 30);
+    const jump1MinButton = createButton('1m F', 60);
+    const jump3MinButton = createButton('3m F', 180);
+    const jump10MinButton = createButton('10m F', 600);
+    const rewind30SecButton = createButton('30s B', -30);
+    const rewind1MinButton = createButton('1m B', -60);
+    const rewind3MinButton = createButton('3m B', -180);
+    const rewind10MinButton = createButton('10m B', -600);
 
     playerContainer.appendChild(jump30SecButton);
     playerContainer.appendChild(jump1MinButton);
